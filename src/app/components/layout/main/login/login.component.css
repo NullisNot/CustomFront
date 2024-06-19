@@ -1,0 +1,93 @@
+.login-container {
+    position: relative;
+    width: 50%;
+    max-width: 600px;
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.toggler {
+    display: flex;
+    width: 200%;
+    transition: transform 0.5s ease;
+    border-top: 30px;
+}
+
+.login-form {
+    width: 50%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.login-user {
+    background-color: #f1f1f1;
+}
+
+.login-admin {
+    background-color: #f1f1f1;
+}
+
+.toggle-buttons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    background-color: #f1f1f1;
+}
+
+.toggle-buttons button {
+    margin: 0 10px;
+    padding: 5px 20px;
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.entry-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+        
+}
+
+.button-login{
+    width: 70%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.toggle-left {
+    transform: translateX(0);
+}
+
+.toggle-right {
+    transform: translateX(-50%);
+}

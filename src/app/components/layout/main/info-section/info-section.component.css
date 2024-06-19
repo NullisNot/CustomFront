@@ -1,0 +1,14 @@
+.information {
+    max-width: 550px;
+    min-width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    max-height: 80%;
+    min-height: 80%;
+}
+
+.information div{
+    width: 500px;
+    margin: auto;
+}
