@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #000000;
+    background-color: #9b500a;
     color: white;
     padding: 0px 50px;
     height: 10vh;
@@ -22,7 +22,7 @@ button i.fas {
 .dropdown-menu {
     position: absolute;
     right: 0;
-    background: #000000;
+    background: #753b05;
     color: #FFFFFF;
     list-style: none;
     padding: 0;
@@ -49,7 +49,7 @@ button i.fas {
 button {
     width: 150px;
     height: 50px;
-    background-color: #000000;
+    background-color: #5e350f;
     color: #FFFFFF;
     border: none;
     display: flex;
@@ -59,7 +59,7 @@ button {
 .exit {
     position: absolute;
     right: 0;
-    background: #000000;
+    background: #310abe;
     color: #FFFFFF;
     list-style: none;
     padding: 0;
@@ -73,7 +73,7 @@ button {
 }
 
 .fas fa-bars {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 a {

@@ -5,7 +5,7 @@
     margin: 50px auto;
     overflow: hidden;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: #61390583;
 }
 
 .toggler {
@@ -25,27 +25,27 @@
 }
 
 .login-user {
-    background-color: #f1f1f1;
+    background-color: rgba(221, 156, 16, 0.199);
 }
 
 .login-admin {
-    background-color: #f1f1f1;
+    background-color: rgba(221, 156, 16, 0.199);
 }
 
 .toggle-buttons {
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
-    background-color: #f1f1f1;
+    background-color: #f1f1f15b;
 }
 
 .toggle-buttons button {
     margin: 0 10px;
     padding: 5px 20px;
     cursor: pointer;
-    background-color: black;
+    background-color: #381e05;
     border: none;
-    color: #fff;
+    color: #fffffff6;
     font-size: 16px;
     border-radius: 4px;
 }
@@ -73,7 +73,7 @@ input[type="password"]{
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
-    background-color: black;
+    background-color: #381e05;
     color: white;
     text-align: center;
     text-decoration: none;

@@ -1,5 +1,5 @@
 .header {
-    background-color: black;
+    background-color: rgba(179, 162, 162, 0.616);
     display: flex;
     font-size: 20px;
     position: fixed;
@@ -11,17 +11,17 @@
 }
 
 .title {
-    color: #FFFFFF;
+    color: #79410c;
 }
 
 .home-container {
-    background-image: url('/assets/images/camara-photo.jpg');
+    background-image: url('/assets/images/paisaje_urbano.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    filter: contrast(0.8) grayscale(100%);
+    filter: contrast(0.8) grayscale(0%);
     position: absolute;
     left: 0;
     right: 0;

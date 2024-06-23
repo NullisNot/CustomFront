@@ -1,6 +1,6 @@
 <div class="NavTotal">
     <div>
-      <h1 class="logo">goodtoknøw</h1>
+      <h1 class="logo">Customer name</h1>
     </div>
     <nav class="dropdown-button">
       <button (click)="toggleOptions()">
@@ -9,20 +9,20 @@
       <div *ngIf="showOptions" class="dropdown-menu">
         <ng-container>
           <a routerLink="/admin-create-events">
-            Crear eventos <i class="fas fa-calendar-plus"></i>
+            Create events <i class="fas fa-calendar-plus"></i>
           </a>
           <a routerLink="/calendar">
-            Calendario <i class="fas fa-calendar-alt"></i>
+            Calendar <i class="fas fa-calendar-alt"></i>
           </a>
           <a routerLink="/info">
-            Información <i class="fas fa-info-circle"></i>
+            Information <i class="fas fa-info-circle"></i>
           </a>
           <a routerLink="/notification">
-            Notificación <i class="fas fa-bell"></i>
+            Notifications <i class="fas fa-bell"></i>
           </a>
         </ng-container>
         <a routerLink="/">
-          <i class="fas fa-sign-out-alt"></i> Cerrar sesión 
+          <i class="fas fa-sign-out-alt"></i> Logout 
         </a>
       </div>
     </nav>
