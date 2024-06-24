@@ -3,7 +3,6 @@ import { FullCalendarModule } from '@fullcalendar/angular';
 import { CalendarOptions } from '@fullcalendar/core';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import interactionPlugin from '@fullcalendar/interaction';
-import esLocale from '@fullcalendar/core/locales/es';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule, DatePipe } from '@angular/common';
 import { EventsService } from '../../../../services/events.service';
@@ -53,7 +52,6 @@ export class BlockEventsComponent {
     plugins: [dayGridPlugin, interactionPlugin],
     selectable: true,
     select: (selectInfo) => this.handleDateSelect(selectInfo),
-    locale: esLocale,
     events: [],
   };
 

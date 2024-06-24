@@ -6,7 +6,6 @@ import {
 import { CalendarOptions } from '@fullcalendar/core';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import interactionPlugin from '@fullcalendar/interaction';
-import esLocale from '@fullcalendar/core/locales/es';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { EventsService } from '../../../../services/events.service';
@@ -62,7 +61,6 @@ export class CalendarComponent implements OnInit {
     },
     plugins: [dayGridPlugin, interactionPlugin],
     dateClick: this.handleDateClick.bind(this),
-    locale: esLocale,
     selectable: true,
     events: [],
   };
@@ -93,12 +91,12 @@ export class CalendarComponent implements OnInit {
         }));
 
         this.noEventsMessage =
-          this.events.length === 0 ? 'No hay eventos registrados' : '';
+          this.events.length === 0 ? 'No events registered' : '';
         this.fixBorderRadius();
       },
       error: (error) => {
         console.error('Error', error);
-        this.noEventsMessage = 'Error al cargar eventos';
+        this.noEventsMessage = 'Error trying to get events';
         this.fixBorderRadius();
       },
     });
