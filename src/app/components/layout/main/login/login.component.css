@@ -5,7 +5,7 @@
     margin: 50px auto;
     overflow: hidden;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: rgba(235, 220, 59, 0.543);
 }
 
 .toggler {
@@ -25,18 +25,18 @@
 }
 
 .login-user {
-    background-color: #f1f1f1;
+    background-color: rgba(235, 220, 59, 0.543);
 }
 
 .login-admin {
-    background-color: #f1f1f1;
+    background-color: rgba(235, 220, 59, 0.543);
 }
 
 .toggle-buttons {
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
-    background-color: #f1f1f1;
+    background-color: rgba(235, 220, 59, 0.543);
 }
 
 .toggle-buttons button {

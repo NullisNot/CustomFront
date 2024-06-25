@@ -6,10 +6,10 @@
       <button class="close-button" (click)="closeDialog()" type="button"><i class="fas fa-times"></i></button>
 
       <div class="form">
-        <label for="subject">Asignatura:</label>
+        <label for="subject">Partida:</label>
         <input type="text" id="subject" [(ngModel)]="eventToEdit.subject" name="subject" required>
 
-        <label for="teacher">Docente:</label>
+        <label for="teacher">Árbitro:</label>
         <input type="text" id="teacher" [(ngModel)]="eventToEdit.teacher" name="teacher" required>
 
         <div class="time">
@@ -23,13 +23,13 @@
           </div>
         </div>
 
-        <label for="building">Edificio:</label>
+        <label for="building">Sala:</label>
         <input type="text" id="building" [(ngModel)]="eventToEdit.building" name="building" required>
 
-        <label for="classroom">Aula:</label>
+        <label for="classroom">Mesa:</label>
         <input type="text" id="classroom" [(ngModel)]="eventToEdit.classroom" name="classroom" required>
 
-        <label for="link">Link:</label>
+        <label for="link">Link directo:</label>
         <input type="url" id="link" [(ngModel)]="eventToEdit.link" name="link">
 
         <label for="comments">Observaciones:</label>

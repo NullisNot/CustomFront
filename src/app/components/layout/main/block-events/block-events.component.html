@@ -5,16 +5,16 @@
   <div class="rightSide">
     <form (ngSubmit)="createEventsFromSelectedDates(eventForm)" #eventForm="ngForm" class="eventForm">
       <div class="form"></div>
-      <label for="selectedDates">Días seleccionados:</label>
+      <label for="selectedDates">Partidas múltiples liga A.C.D6:</label>
       <div class="selected-dates">
         <span *ngIf="selectedDates.length > 0">{{ selectedDates.join(', ') }}</span>
       </div>
       <button type="button" (click)="clearSelectedDates()">Limpiar selección</button>
 
-      <label for="subject">Asignatura:</label>
+      <label for="subject">Partida:</label>
       <input type="text" id="subject" [(ngModel)]="event.subject" name="subject" required>
 
-      <label for="teacher">Docente:</label>
+      <label for="teacher">Árbitro:</label>
       <input type="text" id="teacher" [(ngModel)]="event.teacher" name="teacher" required>
 
       <div class="time">
@@ -28,13 +28,13 @@
         </div>
       </div>
 
-      <label for="building">Edificio:</label>
+      <label for="building">Sala:</label>
       <input type="text" id="building" [(ngModel)]="event.building" name="building" required>
 
-      <label for="classroom">Aula:</label>
+      <label for="classroom">Mesa:</label>
       <input type="text" id="classroom" [(ngModel)]="event.classroom" name="classroom" required>
 
-      <label for="link">Link:</label>
+      <label for="link">Link directo:</label>
       <input type="url" id="link" [(ngModel)]="event.link" name="link">
 
       <label for="comments">Observaciones:</label>
