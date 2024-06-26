@@ -1,5 +1,5 @@
 <button class="Event" (click)="openDialog()">
-  Añadir evento
+  Insertar partidos
 </button>
 <div *ngIf="dialogOpen" class="dialog-overlay"></div>
 <div *ngIf="dialogOpen" class="dialog">
@@ -8,10 +8,10 @@
     </button>
 
     <div class="form">
-      <label for="subject">Asignatura:</label>
+      <label for="subject">Torneo:</label>
       <input type="text" id="subject" [(ngModel)]="event.subject" name="subject" required>
 
-      <label for="teacher">Docente:</label>
+      <label for="teacher">Partido:</label>
       <input type="text" id="teacher" [(ngModel)]="event.teacher" name="teacher" required>
 
       <label for="date">Fecha:</label>
@@ -28,13 +28,13 @@
         </div>
       </div>
 
-      <label for="building">Edificio:</label>
+      <label for="building">Campo de juego:</label>
       <input type="text" id="building" [(ngModel)]="event.building" name="building" required>
 
-      <label for="classroom">Aula:</label>
+      <label for="classroom">Local / Visitante:</label>
       <input type="text" id="classroom" [(ngModel)]="event.classroom" name="classroom" required>
 
-      <label for="link">Link:</label>
+      <label for="link">Link partido:</label>
       <input type="url" id="link" [(ngModel)]="event.link" name="link">
 
       <label for="comments">Observaciones:</label>

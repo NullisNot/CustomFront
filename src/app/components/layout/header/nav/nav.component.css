@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #000000;
+    background-color: #0d3a7d;
     color: white;
     padding: 0px 50px;
     height: 10vh;
@@ -22,7 +22,7 @@ button i.fas {
 .dropdown-menu {
     position: absolute;
     right: 0;
-    background: #000000;
+    background: #0d3a7d;
     color: #FFFFFF;
     list-style: none;
     padding: 0;
@@ -49,7 +49,7 @@ button i.fas {
 button {
     width: 150px;
     height: 50px;
-    background-color: #000000;
+    background-color: #0d3a7d;
     color: #FFFFFF;
     border: none;
     display: flex;
